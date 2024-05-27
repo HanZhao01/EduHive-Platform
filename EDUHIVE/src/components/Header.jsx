@@ -10,18 +10,17 @@ const HeaderContainer = styled.header`
 `;
 
 const Logo = styled.img`
-  height: 200px;
-  margin-bottom: 100px;
+  height: 120px;
+  margin-bottom: 50px;
 `;
 
 const Title = styled.h1`
-  font-size: 24px;
+  font-size: 35px;
   color: #333;
 `;
 
 const Header = () => (
   <HeaderContainer>
-    <Logo src="./assets/Logo.png" alt="EduHive Logo" />
     <Title>
       Build or find your future start up, research, project teams and graduate school advisor in EduHive!
     </Title>

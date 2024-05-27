@@ -3,6 +3,12 @@ import styled from 'styled-components';
 import { FaGoogle, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
+const OuterContainer = styled.div`
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+`;
+
 const ButtonContainer = styled.div`
   display: flex;
   flex-direction: column;
